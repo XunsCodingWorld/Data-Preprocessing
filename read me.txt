@@ -1,0 +1,11 @@
+This is a small project for my master degree.
+
+Basically, I create an application using C++ to process the data file (.ARFF) and transform them into another data formation for research need.
+
+For illustration, I will attach some pics that demonstrate the differet data format before and after running our program. Also the running results under microsoft visual studio IDE is also shown by some screenshots.
+
+I will also contain the thesis for demonstrating the algorithm of my work.
+
+You can find all the data files (contains both formats before and after running the program) in repository "FinalProject", the source code are also contained in this folder.
+
+The source code contain "main.cpp", "Parser.cpp", "Parser.h".

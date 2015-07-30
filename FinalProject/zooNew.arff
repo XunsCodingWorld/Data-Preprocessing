@@ -1,0 +1,127 @@
+@RELATION new_zoo
+
+@ATTRIBUTE legs_1.000000 {<1.000000,>1.000000}
+@ATTRIBUTE legs_3.000000 {<3.000000,>3.000000}
+@ATTRIBUTE legs_4.500000 {<4.500000,>4.500000}
+@ATTRIBUTE legs_5.500000 {<5.500000,>5.500000}
+@ATTRIBUTE legs_7.000000 {<7.000000,>7.000000}
+@ATTRIBUTE animal {aardvark,antelope,bass,bear,boar,buffalo,calf,carp,catfish,cavy,cheetah,chicken,chub,clam,crab,crayfish,crow,deer,dogfish,dolphin,dove,duck,elephant,flamingo,flea,frog,fruitbat,giraffe,girl,gnat,goat,gorilla,gull,haddock,hamster,hare,hawk,herring,honeybee,housefly,kiwi,ladybird,lark,leopard,lion,lobster,lynx,mink,mole,mongoose,moth,newt,octopus,opossum,oryx,ostrich,parakeet,penguin,pheasant,pike,piranha,pitviper,platypus,polecat,pony,porpoise,puma,pussycat,raccoon,reindeer,rhea,scorpion,seahorse,seal,sealion,seasnake,seawasp,skimmer,skua,slowworm,slug,sole,sparrow,squirrel,starfish,stingray,swan,termite,toad,tortoise,tuatara,tuna,vampire,vole,vulture,wallaby,wasp,wolf,worm,wren}
+@ATTRIBUTE hair {false, true}
+@ATTRIBUTE feathers {false, true}
+@ATTRIBUTE eggs {false, true}
+@ATTRIBUTE milk {false, true}
+@ATTRIBUTE airborne {false, true}
+@ATTRIBUTE aquatic {false, true}
+@ATTRIBUTE predator {false, true}
+@ATTRIBUTE toothed {false, true}
+@ATTRIBUTE backbone {false, true}
+@ATTRIBUTE breathes {false, true}
+@ATTRIBUTE venomous {false, true}
+@ATTRIBUTE fins {false, true}
+@ATTRIBUTE tail {false, true}
+@ATTRIBUTE domestic {false, true}
+@ATTRIBUTE catsize {false, true}
+@ATTRIBUTE type { mammal, bird, reptile, fish, amphibian, insect, invertebrate }
+
+@DATA
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,aardvark,true,false,false,true,false,false,true,true,true,true,false,false,false,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,antelope,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,bass,false,false,true,false,false,true,true,true,true,false,false,true,true,false,false,fish
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,bear,true,false,false,true,false,false,true,true,true,true,false,false,false,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,boar,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,buffalo,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,calf,true,false,false,true,false,false,false,true,true,true,false,false,true,true,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,carp,false,false,true,false,false,true,false,true,true,false,false,true,true,true,false,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,catfish,false,false,true,false,false,true,true,true,true,false,false,true,true,false,false,fish
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,cavy,true,false,false,true,false,false,false,true,true,true,false,false,false,true,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,cheetah,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,chicken,false,true,true,false,true,false,false,false,true,true,false,false,true,true,false,bird
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,chub,false,false,true,false,false,true,true,true,true,false,false,true,true,false,false,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,clam,false,false,true,false,false,false,true,false,false,false,false,false,false,false,false,invertebrate
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,crab,false,false,true,false,false,true,true,false,false,false,false,false,false,false,false,invertebrate
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,crayfish,false,false,true,false,false,true,true,false,false,false,false,false,false,false,false,invertebrate
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,crow,false,true,true,false,true,false,true,false,true,true,false,false,true,false,false,bird
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,deer,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,dogfish,false,false,true,false,false,true,true,true,true,false,false,true,true,false,true,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,dolphin,false,false,false,true,false,true,true,true,true,true,false,true,true,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,dove,false,true,true,false,true,false,false,false,true,true,false,false,true,true,false,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,duck,false,true,true,false,true,true,false,false,true,true,false,false,true,false,false,bird
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,elephant,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,flamingo,false,true,true,false,true,false,false,false,true,true,false,false,true,false,true,bird
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,flea,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,insect
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,frog,false,false,true,false,false,true,true,true,true,true,false,false,false,false,false,amphibian
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,frog,false,false,true,false,false,true,true,true,true,true,true,false,false,false,false,amphibian
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,fruitbat,true,false,false,true,true,false,false,true,true,true,false,false,true,false,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,giraffe,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,girl,true,false,false,true,false,false,true,true,true,true,false,false,false,true,true,mammal
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,gnat,false,false,true,false,true,false,false,false,false,true,false,false,false,false,false,insect
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,goat,true,false,false,true,false,false,false,true,true,true,false,false,true,true,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,gorilla,true,false,false,true,false,false,false,true,true,true,false,false,false,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,gull,false,true,true,false,true,true,true,false,true,true,false,false,true,false,false,bird
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,haddock,false,false,true,false,false,true,false,true,true,false,false,true,true,false,false,fish
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,hamster,true,false,false,true,false,false,false,true,true,true,false,false,true,true,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,hare,true,false,false,true,false,false,false,true,true,true,false,false,true,false,false,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,hawk,false,true,true,false,true,false,true,false,true,true,false,false,true,false,false,bird
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,herring,false,false,true,false,false,true,true,true,true,false,false,true,true,false,false,fish
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,honeybee,true,false,true,false,true,false,false,false,false,true,true,false,false,true,false,insect
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,housefly,true,false,true,false,true,false,false,false,false,true,false,false,false,false,false,insect
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,kiwi,false,true,true,false,false,false,true,false,true,true,false,false,true,false,false,bird
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,ladybird,false,false,true,false,true,false,true,false,false,true,false,false,false,false,false,insect
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,lark,false,true,true,false,true,false,false,false,true,true,false,false,true,false,false,bird
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,leopard,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,lion,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,lobster,false,false,true,false,false,true,true,false,false,false,false,false,false,false,false,invertebrate
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,lynx,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,mink,true,false,false,true,false,true,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,mole,true,false,false,true,false,false,true,true,true,true,false,false,true,false,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,mongoose,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,moth,true,false,true,false,true,false,false,false,false,true,false,false,false,false,false,insect
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,newt,false,false,true,false,false,true,true,true,true,true,false,false,true,false,false,amphibian
+>1.000000,>3.000000,>4.500000,>5.500000,>7.000000,octopus,false,false,true,false,false,true,true,false,false,false,false,false,false,false,true,invertebrate
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,opossum,true,false,false,true,false,false,true,true,true,true,false,false,true,false,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,oryx,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,ostrich,false,true,true,false,false,false,false,false,true,true,false,false,true,false,true,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,parakeet,false,true,true,false,true,false,false,false,true,true,false,false,true,true,false,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,penguin,false,true,true,false,false,true,true,false,true,true,false,false,true,false,true,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,pheasant,false,true,true,false,true,false,false,false,true,true,false,false,true,false,false,bird
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,pike,false,false,true,false,false,true,true,true,true,false,false,true,true,false,true,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,piranha,false,false,true,false,false,true,true,true,true,false,false,true,true,false,false,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,pitviper,false,false,true,false,false,false,true,true,true,true,true,false,true,false,false,reptile
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,platypus,true,false,true,true,false,true,true,false,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,polecat,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,pony,true,false,false,true,false,false,false,true,true,true,false,false,true,true,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,porpoise,false,false,false,true,false,true,true,true,true,true,false,true,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,puma,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,pussycat,true,false,false,true,false,false,true,true,true,true,false,false,true,true,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,raccoon,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,reindeer,true,false,false,true,false,false,false,true,true,true,false,false,true,true,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,rhea,false,true,true,false,false,false,true,false,true,true,false,false,true,false,true,bird
+>1.000000,>3.000000,>4.500000,>5.500000,>7.000000,scorpion,false,false,false,false,false,false,true,false,false,true,true,false,true,false,false,invertebrate
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,seahorse,false,false,true,false,false,true,false,true,true,false,false,true,true,false,false,fish
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,seal,true,false,false,true,false,true,true,true,true,true,false,true,false,false,true,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,sealion,true,false,false,true,false,true,true,true,true,true,false,true,true,false,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,seasnake,false,false,false,false,false,true,true,true,true,false,true,false,true,false,false,reptile
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,seawasp,false,false,true,false,false,true,true,false,false,false,true,false,false,false,false,invertebrate
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,skimmer,false,true,true,false,true,true,true,false,true,true,false,false,true,false,false,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,skua,false,true,true,false,true,true,true,false,true,true,false,false,true,false,false,bird
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,slowworm,false,false,true,false,false,false,true,true,true,true,false,false,true,false,false,reptile
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,slug,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,invertebrate
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,sole,false,false,true,false,false,true,false,true,true,false,false,true,true,false,false,fish
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,sparrow,false,true,true,false,true,false,false,false,true,true,false,false,true,false,false,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,squirrel,true,false,false,true,false,false,false,true,true,true,false,false,true,false,false,mammal
+>1.000000,>3.000000,>4.500000,<5.500000,<7.000000,starfish,false,false,true,false,false,true,true,false,false,false,false,false,false,false,false,invertebrate
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,stingray,false,false,true,false,false,true,true,true,true,false,true,true,true,false,true,fish
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,swan,false,true,true,false,true,true,false,false,true,true,false,false,true,false,true,bird
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,termite,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,insect
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,toad,false,false,true,false,false,true,false,true,true,true,false,false,false,false,false,amphibian
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,tortoise,false,false,true,false,false,false,false,false,true,true,false,false,true,false,true,reptile
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,tuatara,false,false,true,false,false,false,true,true,true,true,false,false,true,false,false,reptile
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,tuna,false,false,true,false,false,true,true,true,true,false,false,true,true,false,true,fish
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,vampire,true,false,false,true,true,false,false,true,true,true,false,false,true,false,false,mammal
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,vole,true,false,false,true,false,false,false,true,true,true,false,false,true,false,false,mammal
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,vulture,false,true,true,false,true,false,true,false,true,true,false,false,true,false,true,bird
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,wallaby,true,false,false,true,false,false,false,true,true,true,false,false,true,false,true,mammal
+>1.000000,>3.000000,>4.500000,>5.500000,<7.000000,wasp,true,false,true,false,true,false,false,false,false,true,true,false,false,false,false,insect
+>1.000000,>3.000000,<4.500000,<5.500000,<7.000000,wolf,true,false,false,true,false,false,true,true,true,true,false,false,true,false,true,mammal
+<1.000000,<3.000000,<4.500000,<5.500000,<7.000000,worm,false,false,true,false,false,false,false,false,false,true,false,false,false,false,false,invertebrate
+>1.000000,<3.000000,<4.500000,<5.500000,<7.000000,wren,false,true,true,false,true,false,false,false,true,true,false,false,true,false,false,bird
